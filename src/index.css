@@ -1,0 +1,116 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:thistle;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+
+
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+}
+
+li:hover{
+    background-color: #333;
+    color: #0069d9;
+}
+
+li button {
+    background-color: #dc3545;
+    /* Red for delete */
+    margin-left: 5px;
+}
+
+li button:hover {
+    background-color: #c82333;
+    /* Darker red on hover */
+}
+
+
+/* styles.css */
+
+/* Existing styles ... */
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #00ff37;
+}
+
+/* Color variations */
+.btn-add {
+    background-color: #28a745;
+    /* Green for add */
+}
+
+.btn-edit {
+    background-color: #00ff37;
+    /* Blue for edit */
+}
+
+.btn-delete {
+    background-color: #00ff37;
+    /* Red for delete */
+}
+
+/* Hover effects */
+.btn-add:hover {
+    background-color: #218838;
+}
+
+.btn-edit:hover {
+    background-color: #0069d9;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
